@@ -13,15 +13,15 @@
 {Powering and Shaping Planetary Nebulae: The Physics of Common Envelopes}
 
 \author[Nordhaus \& Spiegel]   %% give here short author list %%
-{Jason Nordhaus$^{1,2}$, Dave Spiegel$^3$}
+{Jason Nordhaus$^{1,2}$, David S. Spiegel$^3$}
 
 
 \affiliation{$^1$Dept. of Science and Mathematics, National Technical Institute for the Deaf\\
 Rochester Institute of Technology, Rochester, NY 14623, USA  \\[\affilskip]
 $^2$Center for Computational Relativity and Gravitation\\
 Rochester Institute of Technology, Rochester, NY 14623, USA\\ email: {\tt nordhaus@astro.rit.edu}\\[\affilskip]
-$^3$Algorithms Department\\
-Stitch Fix, San Francisco, CA}
+$^3$Algorithms Department, Stitch Fix\\
+San Francisco, CA 94103, USA}
 
 \pubyear{2015}
 \setcounter{page}{1}
@@ -32,7 +32,7 @@ Stitch Fix, San Francisco, CA}
 \maketitle
 
 \begin{abstract}
-The diversity of collimated outflows in post-asymptotic-giant-branch (post-AGB) stars and their planetary nebula (PN) progeny are often explained by a combination of close binary interactions and accretion.  The viability of such scenarios can be tested by comparing  kinematic outflow data to determine minimum accretion rates necessary to power observed outflows.  While many binary channels have been ruled out with this technique, common envelope interactions can accommodate the current observational constraints, are potentially common, lead to a diverse array of PN shapes and naturally produce period gaps for companions to white dwarfs.
+The diversity of collimated outflows in post-asymptotic-giant-branch stars and their planetary nebula progeny are often explained by a combination of close binary interactions and accretion.  The viability of such scenarios can be tested by comparing  kinematic outflow data to determine minimum accretion rates necessary to power observed outflows.  While many binary channels have been ruled out with this technique, common envelope interactions can accommodate the current observational constraints, are potentially common, lead to a diverse array of planetary-nebula shapes, and naturally produce period gaps for companions to white dwarfs.
 \keywords{stars: AGB and post-AGB
 , (stars:) binaries (including multiple): close, stars: magnetic fields, stars: mass loss, (stars:) planetary systems, stars: evolution}
 \end{abstract}
@@ -41,11 +41,11 @@ The diversity of collimated outflows in post-asymptotic-giant-branch (post-AGB) 
               % remove some space above using this command.
 \section{Introduction}
 
-For stars with initial masses $\lesssim$~8$M_\odot$, post-main-sequence evolution is accompanied by significant expansion of the stellar radius and copious-mass loss during the giant phases. As the stellar envelope depletes, a natal white dwarf emerges encased in an optically-dark-reflection nebula.  Subsequent heating of the WD ionizes the expanding-stellar material which shines as a planetary nebulae (PN).  Originally, the ejected nebulae were thought to be spherical and originate from steady mass loss by an isolated star during the Asymptotic Giant Branch (AGB) phase. However, this paradigm changed as high-resolution-optical imaging revealed highly asymmetric and collimated structures such as jets, disks and fast-clumpy ejecta (\cite{BF2002,DeMarco2009,Z2015}).
+For stars with initial masses $\lesssim$~8$M_\odot$, post-main-sequence evolution is accompanied by significant expansion of the stellar radius and copious mass loss during the giant phases. As the stellar envelope depletes, a natal white dwarf (WD) emerges encased in an optically-dark reflection nebula.  Subsequent heating by the WD ionizes the expanding-stellar material which shines as a planetary nebulae (PN).  Originally, the ejected nebulae were thought to be spherical and originate from steady mass loss by an isolated star during the Asymptotic Giant Branch (AGB) phase. However, this paradigm changed as high-resolution-optical imaging revealed highly anisotropic and collimated structures such as jets, disks and fast-clumpy ejecta (\cite{BF2002,DeMarco2009,Z2015}).
 
-The transition from spherical mass-loss during the Asymptotic Giant Branch phase to the collimated and magnetized outflows seen in the post-AGB and PN phases is thought to arise in systems with close binary companions (\cite{2006MNRAS.370.2004N,DeMarco2009}).  The diversity of observed outflows and their kinematic properties are often explained by various combinations of binary interactions and accretion with the most energetic interactions occurring when the orbital separation decays to short periods ($\lesssim 1$ day) (\cite{2006MNRAS.370.2004N,2007MNRAS.376..599N}).  Companions initially orbiting within $\sim$5-8 AU during the main sequence are expected to plunge into their host stars during the RGB or AGB phases (\cite{NS2013}).  Once immersed in such common envelopes, the companion inspirals until it ejects the giant's envelope, emerging in a post-CE short-period orbit, or is destroyed. 
+The transition from spherical mass loss during the AGB phase to the collimated and magnetized outflows seen in the post-AGB and PN phases is thought to arise in systems with close binary companions (\cite{2006MNRAS.370.2004N,DeMarco2009}).  The diversity of observed outflows and their kinematic properties are often explained by various combinations of binary interactions and accretion with the most energetic interactions occurring when the orbital separation decays to short periods ($\lesssim 1$ day) (\cite{2006MNRAS.370.2004N,2007MNRAS.376..599N}).  Companions initially orbiting within $\sim$5-8 AU during the main sequence are expected to plunge into their host stars during the RGB or AGB phases (\cite{NS2013}).  Once immersed in such common envelopes, the companion inspirals until it ejects the giant's envelope, emerging in a post-CE short-period orbit, or is destroyed (\cite{spiegel2012}).
 
-Here, we highlight recent work relevant to common envelopes including (i.) how outflow observations in post-AGB/PN can be used to constrain engine-driving scenarios, (ii.) how stellar evolution leads to period gaps for companions to white dwarfs and (iii.) how highly-magnetized white dwarfs can form in common envelopes.
+Here, we highlight recent work relevant to common envelopes (CEs) including (i.) how outflow observations in post-AGB/PN can be used to constrain engine-driving scenarios, (ii.) how stellar evolution leads to period gaps for companions to white dwarfs and (iii.) how highly-magnetized white dwarfs can form in common envelopes.
 
 
 \section{Viable Binary Channels}
@@ -76,24 +76,24 @@ Since companions to main-sequence stars are plentiful, it may be that common env
 \begin{center}
  \includegraphics[width=5.4in]{results_fig.png} 
 % \vspace*{-1.0 cm}
- \caption{Minimum escaping semi-major axis as a function of companion mass and zero-age-sequence primary mass under the assumption of quasi-circular orbits (\cite{NS2013}).  Mass ratios greater than 0.1 are not modeled as the primary distorts from spherical symmetry.}
+ \caption{Minimum escaping semi-major axis as a function of companion mass and zero-age main-sequence primary mass under the assumption of quasi-circular orbits (\cite{NS2013}).  Mass ratios greater than 0.1 are not modeled because the primary distorts from spherical symmetry when the companion is near the critical semi-major axis.}
    \label{fig2}
 \end{center}
 \end{figure}
 
-{\sc\underline{Period Gaps for Companions to White Dwarfs}}: Post-main-sequence evolution naturally produces period gaps for companions to white dwarfs (\cite{2010MNRAS.408..631N,NS2013}).  At minimum, the expansion of the stellar radius to a few AU would create period gaps by directly engulfing any companion initially orbiting inside this region.  However, giant stars slowly rotate at their surface and posses deep and massive convective envelopes.  Orbiting companions can therefore raise a tidal bulge on their host star such that the orbit decays.  On the other hand, strong dust-driven winds from the giant act to widen the orbit.  Therefore, for quasi-circular orbits, there exists a critical semi-major axis wherein which companions initially orbiting inside are engulfed and those orbiting outside avoid engulfment (see Figure 1).  Figure 2, shows the minimum escaping semi-major axis as a function of companion mass and zero-age-sequence primary mass.
+{\sc\underline{Period Gaps for Companions to White Dwarfs}}: Post-main-sequence evolution naturally produces period gaps for companions to white dwarfs (\cite{2010MNRAS.408..631N, spiegel2012, NS2013}).  At minimum, the expansion of the stellar radius to a few AU would create period gaps by directly engulfing any companion initially orbiting inside this region.  However, giant stars slowly rotate at their surface and possess deep convective envelopes.  An orbiting companion can therefore raise a tidal bulge on the host star such that the orbit decays.  On the other hand, strong, dust-driven winds from the giant act to widen the orbit.  Therefore, for quasi-circular orbits, there exists a critical orbital radius such that companions initially orbiting inside this radius are engulfed and those orbiting outside avoid engulfment (see Figure 1).  Figure 2 shows the minimum escaping semi-major axis ($a_i$) as a function of companion mass and zero-age main-sequence primary mass.  In general, since more massive companions experience stronger tidal torques in proportion to the square of their mass, more massive companions can be tidally engulfed out to a greater initial orbital separation.  However, the contours have an interesting U shape because {\it very} massive companions can tidally synchronize a giant star --- thereby arresting their inspiral --- so to be engulfed they need to begin in a tighter orbit than $\sim$50~$M_{\rm Jupiter}$ comapnions.  The upshot is that massive companions might be found either very close to (orbital period $\lesssim$days) or very far from (orbital period $\gtrsim$years) WDs, while low-mass companions are expected to be found only at large distances from WDs.
 
 
-{\sc\underline{Formation of Magnetized White Dwarfs}}: Engulfment in a common envelope can lead to one of two outcomes: survival of the companion and emergence in a post-CE orbit, or its destruction (\cite{2006MNRAS.370.2004N}).  The fate of the companion roughly depends on its mass and the binding energy of the envelope at the time of engulfment.  If the companion is of sufficiently low-mass it will not liberate the requisite orbital energy to unbind the envelope and continue migration toward the giant core.  Eventually, the companion will be tidally disrupted as the differential gravitational force due to the proto-WD overcomes the companion's own self-gravity.  For stars possessing low-mass companions such as planets or M dwarfs, there is strong observational evidence that highly-magnetized white dwarfs (with magnetic fields in excess of one MegaGauss) originate from those systems that destroy the companion in the process.  The tidal disruption of the companion produces a circum-WD accretion disk {\it within} the common envelope \cite{2011PNAS..108.3135N}.  The disk is initially cold and dense compared to the hot stellar interior.  Magnetic amplification of the initial seed fields via a dynamo can lead to the generation of $>$~MG B-fields which anchor in the proto-WD thereby emerging as a highly-magnetized WD \cite{2011PNAS..108.3135N}.
+{\sc\underline{Formation of Magnetized White Dwarfs}}: Engulfment in a common envelope can lead to one of two outcomes: survival of the companion and emergence in a post-CE orbit, or its destruction (\cite{2006MNRAS.370.2004N}).  The fate of the companion roughly depends on its mass and the binding energy of the envelope at the time of engulfment.  If the companion is of sufficiently low-mass it will not liberate the requisite orbital energy to unbind the envelope and continue migration toward the giant core.  Eventually, the companion will be tidally disrupted as the differential gravitational force due to the proto-WD overcomes the companion's own self-gravity.  For stars possessing low-mass companions such as planets or M dwarfs, there is strong observational evidence that highly-magnetized white dwarfs (with magnetic fields in excess of one MegaGauss, or MG) originate from those systems that destroy the companion in the process.  The tidal disruption of the companion produces a circum-WD accretion disk {\it within} the common envelope (\cite{2011PNAS..108.3135N}).  The disk is initially cold and dense compared to the hot stellar interior.  Magnetic amplification of the initial seed fields via a dynamo can lead to the generation of $>$~MG B-fields which anchor in the proto-WD thereby emerging as a highly-magnetized WD (\cite{2011PNAS..108.3135N}).
 
 \section{Takeaways}
-Common envelopes are an important, but poorly understood, phase of stellar evolution.  Observations of outflows in post-AGB/PN have recently lead to an indirect constraint on engine-driving scenarios, namely that accretion in CEs is sufficient to explain all currently observed systems while other scenarios can be ruled out.  Common envelope phases are also important for stellar evolution as they, along with tidal torques and stellar mass loss, are key ingredients for determining where to look for companions to white dwarfs.  CE systems where the companion is expected to be tidally disrupted inside the common envelope may form accretion disks capable of generating and anchoring strong B-fields in the natal white dwarf.  Such a scenario may explain the origin of highly-magnetized white dwarfs, i.e. those with measured surface fields in excess of 1 MG.  
+Common envelopes are an important, but poorly understood, phase of stellar evolution.  Observations of outflows in post-AGB/PN have recently lead to an indirect constraint on engine-driving scenarios, namely that accretion in CEs is sufficient to explain all currently observed systems while other scenarios can be ruled out.  Common-envelope phases are also important for stellar evolution as they, along with tidal torques and stellar mass loss, are key ingredients for determining where to look for companions to white dwarfs.  CE systems where the companion is expected to be tidally disrupted inside the common envelope may form accretion disks capable of generating and anchoring strong B-fields in the natal white dwarf.  Such a scenario may explain the origin of highly-magnetized white dwarfs, i.e. those with measured surface fields in excess of 1 MG.  
 
 \begin{thebibliography}{}
 
 \bibitem[Balick \& Frank 2002]{BF2002} Balick, B., \& Frank, A.\ 2002, {\it Ann. Rev. Ast. Astron. Astrophys.}, 40, 439\\
 
-\bibitem[Blackman \& Lucchini 2014]{BL2014} Blackman, E.~G., \& Lucchini, S.\ 2014, {\it Mon. Not. R. Astron. Soc.}, 440, L16\\
+\bibitem[Blackman \& Lucchini (2014)]{BL2014} Blackman, E.~G., \& Lucchini, S.\ 2014, {\it Mon. Not. R. Astron. Soc.}, 440, L16\\
 
 \bibitem[Bujarrabal et al. 2001]{Bujarrabal2001} Bujarrabal, V., Castro-Carrizo, A., Alcolea, J., \& S{\'a}nchez Contreras, C.\ 2001, {\it Astron. Astrophys.}, 377, 868\\
 
@@ -113,6 +113,7 @@ Common envelopes are an important, but poorly understood, phase of stellar evolu
 
 \bibitem[Paczynski 1976]{1976IAUS...73...75P} Paczynski, B.\ 1976, Structure and Evolution of Close Binary Systems, 73, 75\\
 
+\bibitem[Spiegel 2012]{spiegel2012} Spiegel, D.~S.\ 2012, arXiv:1208.2276 \\
 
 \bibitem[Zijlstra 2015]{Z2015} Zijlstra, A.~A.\ 2015, {\it Revista Mexicana de Astronomía y Astrofísica}, 51, 221\\
 
